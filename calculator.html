@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calc">
+      <input type="text" id="displaybox" ><br />
+      <div class="buttons" id="numpad" onclick="onNumpadClick(event)">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button id="eqbutton">=</button>
+        <button onclick="clr()">C</button><br />
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="opreator">+</button>
+        <button class="opreator">-</button><br />
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="opreator">x</button>
+        <button class="opreator">/</button><br />
+<div class="flex">
+  <button>0</button>
+  <button>00</button>
+  <button id="dot" ><div>.</div></button>
+  <button class="opreator">%</button>
+  <button class="opreator">x²</button>
+</div>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>

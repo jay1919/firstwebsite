@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c5a3ff;
+}
+.calc {
+  border: 1px whitesmoke;
+  padding: 20px;
+  background: transparent;
+}
+input {
+  background-color: aliceblue;
+  width:320px;
+  height: 98px;
+  padding: 2px;
+  line-height: 30px;
+  font-size: 30px;
+  text-align: left;
+  float:left;
+}
+button {
+  width: 60px;
+  height: 60px;
+  padding:0.001px;
+  color: #100c08;
+  background-color: lightslategrey ;
+}
+.opreator {
+  color: black;
+  background-color: grey;
+}
+#eqbutton {
+  background-color: rgba(255, 136, 0, 0.884);
+}
+#dot {
+display: flex;
+justify-content: center;
+align-items: center;
+div {
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background: black;
+  color: transparent;
+}
+}
+
+.flex {
+  display: flex;
+  gap: 5px;
+}
+
